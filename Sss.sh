@@ -286,7 +286,7 @@ NC="\033[0m" # Reset color
 LIGHTGREEN="\033[1;32m"
 
 echo -e "\033[1m${BIWhite}╭━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╮\033[0m${NC}"
-echo -e "\033[1m${BIWhite}┃${NC}${BIYellow}  \e[41;97;1m                 PIQARONA DEV                   \033[0m\e[38;5;196m${NC}           ${BIWhite}┃\033[0m${NC}"
+echo -e "\033[1m${BIWhite}┃${NC}${BIYellow}  \e[41;97;1m                   PIQARONA DEV                  \033[0m\e[38;5;196m${NC}  ${BIWhite}┃\033[0m${NC}"
 echo -e "\033[1m${BIWhite}╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╯\033[0m${NC}"
 echo -e "\033[1m${BIWhite}╭━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╮\033[0m${NC}"
 echo -e "\033[1m${BIWhite}┃${NC}${BIWhite} ⇲  ${BIWhite}VERSI OS  ➤ ${BIWhite}$(cat /etc/os-release | grep -w PRETTY_NAME | sed 's/PRETTY_NAME=//g' | sed 's/"//g')     ${NC}"
@@ -312,20 +312,20 @@ echo -e "\033[1m${BIWhite}┃${NC} ${BIWhite}  [02] ${BIWhite}VMESS   ${BIWhite}
 echo -e "\033[1m${BIWhite}┃${NC} ${BIWhite}  [03] ${BIWhite}VLESS   ${BIWhite}[Menu]      [10] ${BIWhite}INSTALL UDP ${BIWhite}[Menu]${NC}"
 echo -e "\033[1m${BIWhite}┃${NC} ${BIWhite}  [04] ${BIWhite}TROJAN  ${BIWhite}[Menu]      [11] ${BIWhite}INSTALL BOT ${BIWhite}[Menu]${NC}"
 echo -e "\033[1m${BIWhite}┃${NC} ${BIWhite}  [05] ${BIWhite}SETTINGS${BIWhite}[Menu]      [12] ${BIWhite}BANDWIDTH   ${BIWhite}[Menu]${NC}"
-echo -e "\033[1m${BIWhite}┃${NC} ${BIWhite}  [06] ${BIWhite}TRIAL   ${BIWhite}[Menu]      [13] ${BIWhite}MENU THEME  ${BIWhite}[Menu]${NC}"
-echo -e "\033[1m${BIWhite}┃${NC} ${BIWhite}  [07] ${BIWhite}BACKUP  ${BIWhite}[Menu]      [14] ${BIWhite}UPDATE      ${BIWhite}[Menu]${NC}"
+echo -e "\033[1m${BIWhite}┃${NC} ${BIWhite}  [06] ${BIWhite}TRIAL   ${BIWhite}[Menu]      [13] ${BIWhite}UPDATE      ${BIWhite}[Menu]${NC}"
+echo -e "\033[1m${BIWhite}┃${NC} ${BIWhite}  [07] ${BIWhite}BACKUP  ${BIWhite}[Menu]      [14] ${BIWhite}REBOOT      ${BIWhite}[Menu]${NC}"
 echo -e "\033[1m${BIWhite}╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╯\033[0m${NC}"
 echo -e "\033[1m${BIWhite}╭━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╮\033[0m${NC}"
-echo -e "\033[1m${BIWhite}┃${NC}${BIWhite}↪️ Script Versi   ➤ ${BIWhite}$(cat /opt/.ver)   ${NC}"
-echo -e "\033[1m${BIWhite}┃${NC}${BIWhite}🧒 Client Name    ➤ ${BIWhite}$Name    ${NC}"
-echo -e "\033[1m${BIWhite}┃${NC}${BIWhite}🗓️ Expiry Date    ➤ ${BIWhite}$exp ${BIWhite}➤${BIWhite} $exp2${BIWhite} Days.   ${NC}"
-echo -e "\033[1m${BIWhite}┃${NC}${BIWhite}👤 Telegram Owner ➤ ${BIWhite}@piqarona   ${NC}"
+echo -e "\033[1m${BIWhite}┃${NC}${BIWhite} Script version ➤ ${BIWhite}$(cat /opt/.ver)   ${NC}"
+echo -e "\033[1m${BIWhite}┃${NC}${BIWhite} Client Name    ➤ ${BIWhite}$Name    ${NC}"
+echo -e "\033[1m${BIWhite}┃${NC}${BIWhite} Expiry Date    ➤ ${BIWhite}$exp ${BIWhite}➤${BIWhite} $exp2${BIWhite} Days.   ${NC}"
+echo -e "\033[1m${BIWhite}┃${NC}${BIWhite} Telegram Owner ➤ ${BIWhite}@piqarona   ${NC}"
 echo -e "\033[1m${BIWhite}╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╯\033[0m${NC}"
 echo -e "\033[1m${BIWhite}╭━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╮\033[0m${NC}"
 echo -e "\033[1m${BIWhite}┃${NC} ${BIRed}$(printf '%*s' $(( (54 - 17) / 2 )) '')${BIWhite}JANGAN LUPA SELAWAT${NC}$(printf '%*s' $(( (54 - 17) / 2 )) '')"
 echo -e "\033[1m${BIWhite}╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╯\033[0m${NC}"
 echo -e ""
-read -p "               Pilih Nomor └╼>>>  bro: " opt
+read -p " Choose Menu ╼>>> " opt
 echo -e ""
 case $opt in
 1) clear ; menu-ssh ;;
@@ -337,12 +337,14 @@ case $opt in
 7) clear ; menu-backup ;;
 8) clear ; add-host ;;
 9) clear ; running ;;
-10) clear ; wget https://raw.githubusercontent.com/PiqaronaDev/script/refs/heads/main/udp-custom.sh && chmod +x udp-custom.sh && ./udp-custom.sh ;;
+10) clear ; wget https://raw.githubusercontent.com/PiqaronaDev/script/refs/heads/main/sshws/udp-custom.sh && chmod +x udp-custom.sh && ./udp-custom.sh ;;
 11) clear ; menu-bot ;;
 12) clear ; bw ;;
-13) clear ; menu-theme ;;
-14) clear ; update ;;
+13) clear ; update ;;
+14) clear ; reboot ;;
 0) clear ; menu ;;
 x) exit ;;
-*) echo -e "" ; echo "Press any key to back exit" ; sleep 1 ; exit ;;
+*)
+    menu
+    ;;
 esac
