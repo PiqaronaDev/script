@@ -321,7 +321,7 @@ echo -e "\033[1m${BIWhite}┃${NC}${BIWhite}🗓️ Expiry Date    ➤ ${BIWhite
 echo -e "\033[1m${BIWhite}┃${NC}${BIWhite}👤 Telegram Owner ➤ ${BIWhite}@piqarona   ${NC}"
 echo -e "\033[1m${BIWhite}╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╯\033[0m${NC}"
 echo -e "\033[1m${BIWhite}╭━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╮\033[0m${NC}"
-echo -e "\033[1m${BIWhite}┃${NC} ${BIRed}       ${BIWhite}JANGAN LUPA SELAWAT${NC}"          
+echo -e "\033[1m${BIWhite}┃${NC} ${BIRed}$(printf '%*s' $(( (54 - 17) / 2 )) '')${BIWhite}JANGAN LUPA SELAWAT${NC}$(printf '%*s' $(( (54 - 17) / 2 )) '')"
 echo -e "\033[1m${BIWhite}╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╯\033[0m${NC}"
 echo -e ""
 read -p "               Pilih Nomor └╼>>>  bro: " opt
