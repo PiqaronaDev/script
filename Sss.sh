@@ -307,13 +307,12 @@ echo -e "\033[1m${BIWhite}┃${NC}${BIWhite}   ${BIWhite}   STUNNEL ${NC}: $ress
 echo -e "\033[1m${BIWhite}╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╯\033[0m${NC}"
 echo -e "\033[1m${BIWhite}╭━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╮\033[0m${NC}"
 echo -e "\033[1m${BIWhite}┃${NC} ${BIRed} ${BIWhite}                ${BIWhite}🔹 MENU OPTIONS 🔹${NC}"
-echo -e "\033[1m${BIWhite}┃${NC} ${BIWhite}  [01] ${BIWhite}SSH     ${BIWhite}[Menu]      [08] ${BIWhite}ADD-HOST    ${BIWhite}[Menu]${NC}"
-echo -e "\033[1m${BIWhite}┃${NC} ${BIWhite}  [02] ${BIWhite}VMESS   ${BIWhite}[Menu]      [09] ${BIWhite}RUNNING     ${BIWhite}[Menu]${NC}"
-echo -e "\033[1m${BIWhite}┃${NC} ${BIWhite}  [03] ${BIWhite}VLESS   ${BIWhite}[Menu]      [10] ${BIWhite}INSTALL UDP ${BIWhite}[Menu]${NC}"
-echo -e "\033[1m${BIWhite}┃${NC} ${BIWhite}  [04] ${BIWhite}TROJAN  ${BIWhite}[Menu]      [11] ${BIWhite}INSTALL BOT ${BIWhite}[Menu]${NC}"
-echo -e "\033[1m${BIWhite}┃${NC} ${BIWhite}  [05] ${BIWhite}SETTINGS${BIWhite}[Menu]      [12] ${BIWhite}BANDWIDTH   ${BIWhite}[Menu]${NC}"
-echo -e "\033[1m${BIWhite}┃${NC} ${BIWhite}  [06] ${BIWhite}TRIAL   ${BIWhite}[Menu]      [13] ${BIWhite}UPDATE      ${BIWhite}[Menu]${NC}"
-echo -e "\033[1m${BIWhite}┃${NC} ${BIWhite}  [07] ${BIWhite}BACKUP  ${BIWhite}[Menu]      [14] ${BIWhite}REBOOT      ${BIWhite}[Menu]${NC}"
+echo -e "\033[1m${BIWhite}┃${NC} ${BIWhite}  [01] ${BIWhite}SSH     ${BIWhite}[Menu]      [07] ${BIWhite}ADD-HOST    ${BIWhite}[Menu]${NC}"
+echo -e "\033[1m${BIWhite}┃${NC} ${BIWhite}  [02] ${BIWhite}VMESS   ${BIWhite}[Menu]      [08] ${BIWhite}RUNNING     ${BIWhite}[Menu]${NC}"
+echo -e "\033[1m${BIWhite}┃${NC} ${BIWhite}  [03] ${BIWhite}VLESS   ${BIWhite}[Menu]      [09] ${BIWhite}INSTALL UDP ${BIWhite}[Menu]${NC}"
+echo -e "\033[1m${BIWhite}┃${NC} ${BIWhite}  [04] ${BIWhite}TROJAN  ${BIWhite}[Menu]      [10] ${BIWhite}BACKUP      ${BIWhite}[Menu]${NC}"
+echo -e "\033[1m${BIWhite}┃${NC} ${BIWhite}  [05] ${BIWhite}SETTINGS${BIWhite}[Menu]      [11] ${BIWhite}BANDWIDTH   ${BIWhite}[Menu]${NC}"
+echo -e "\033[1m${BIWhite}┃${NC} ${BIWhite}  [06] ${BIWhite}TRIAL   ${BIWhite}[Menu]      [12] ${BIWhite}UPDATE      ${BIWhite}[Menu]${NC}"
 echo -e "\033[1m${BIWhite}╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╯\033[0m${NC}"
 echo -e "\033[1m${BIWhite}╭━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╮\033[0m${NC}"
 echo -e "\033[1m${BIWhite}┃${NC}${BIWhite} Script version ➤ ${BIWhite}$(cat /opt/.ver)   ${NC}"
@@ -334,14 +333,12 @@ case $opt in
 4) clear ; menu-trojan ;;
 5) clear ; menu-set ;;
 6) clear ; menu-trial ;;
-7) clear ; menu-backup ;;
-8) clear ; add-host ;;
-9) clear ; running ;;
-10) clear ; wget https://raw.githubusercontent.com/PiqaronaDev/script/refs/heads/main/sshws/udp-custom.sh && chmod +x udp-custom.sh && ./udp-custom.sh ;;
-11) clear ; menu-bot ;;
-12) clear ; bw ;;
-13) clear ; update ;;
-14) clear ; reboot ;;
+7) clear ; add-host ;;
+8) clear ; running ;;
+9) clear ; wget https://raw.githubusercontent.com/PiqaronaDev/script/refs/heads/main/sshws/udp-custom.sh && chmod +x udp-custom.sh && ./udp-custom.sh ;;
+10) clear ; menu-backup ;;
+11) clear ; bw ;;
+12) clear ; update ;;
 0) clear ; menu ;;
 x) exit ;;
 *)
