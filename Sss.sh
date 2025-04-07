@@ -286,7 +286,7 @@ NC="\033[0m" # Reset color
 LIGHTGREEN="\033[1;32m"
 
 echo -e "\033[1m${BIWhite}╭━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╮\033[0m${NC}"
-echo -e "\033[1m${BIWhite}┃${NC}${BIYellow}  \e[41;97;1m                  PIQARONA DEV                     \033[0m\e[38;5;196m${NC}"
+echo -e "\033[1m${BIWhite}┃${NC}${BIYellow} \e[41;97;1m                  PIQARONA DEV                     \033[0m\e[38;5;196m${NC}"
 echo -e "\033[1m${BIWhite}╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╯\033[0m${NC}"
 echo -e "\033[1m${BIWhite}╭━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╮\033[0m${NC}"
 echo -e "\033[1m${BIWhite}┃${NC}${BIWhite} ⇲  ${BIWhite}VERSI OS  ➤ ${BIWhite}$(cat /etc/os-release | grep -w PRETTY_NAME | sed 's/PRETTY_NAME=//g' | sed 's/"//g')     ${NC}"
@@ -322,7 +322,7 @@ echo -e "\033[1m${BIWhite}┃${NC}${BIWhite}🗓️ Expiry Date    ➤ ${BIWhite
 echo -e "\033[1m${BIWhite}┃${NC}${BIWhite}👤 Telegram Owner ➤ ${BIWhite}@piqarona   ${NC}"
 echo -e "\033[1m${BIWhite}╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╯\033[0m${NC}"
 echo -e "\033[1m${BIWhite}╭━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╮\033[0m${NC}"
-echo -e "\033[1m${BIWhite}┃${NC} ${BIRed}                            ${BIWhite}JANGAN LUPA SELAWAT${NC}"          
+echo -e "\033[1m${BIWhite}┃${NC} ${BIRed}                      ${BIWhite}JANGAN LUPA SELAWAT${NC}"          
 echo -e "\033[1m${BIWhite}╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╯\033[0m${NC}"
 echo -e ""
 read -p "               Pilih Nomor └╼>>>  bro: " opt
